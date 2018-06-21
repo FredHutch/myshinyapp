@@ -1,0 +1,9 @@
+version: '2'
+services:
+  myshinyapp:
+    image: dockerimages.fhcrc.org/myshinyapp:latest
+
+    labels:
+      io.rancher.container.pull_image: always
+
+    restart: always
